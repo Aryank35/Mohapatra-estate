@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Poppins', sans-serif, Arial;
+  scroll-behavior: smooth;
+}
+
+.swiper-horizontal{
+  overflow: visible;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
