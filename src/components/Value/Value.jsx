@@ -15,13 +15,13 @@ import { useState } from 'react';
 const Value = () => {
   return (
     <div>
-        <div className="container px-[100px] py-9 flex items-center justify-between ">
-        <div className="left w-[50%] flex-1">
-          <div className="image w-[30rem] h-[38rem] overflow-hidden border-8 border-solid border-[#EEE] rounded-t-[15rem]">
-            <img src="./value.png" className='h-[100%] w-[100%] ' alt="" />
+        <div className="container md:px-[100px] mx-auto py-9 flex items-center justify-between ">
+        <div className="left w-full md:w-[50%] flex-1">
+          <div className="image w-[94%] md:w-[30rem] md:h-[38rem] overflow-hidden border-8 border-solid border-[#EEE] rounded-t-[15rem]">
+            <img src="./value.png" className='md:h-[100%] w-[100%] ' alt="value jpg" />
           </div>
         </div>
-        <div className="flex flex-col gap-[0.5rem] w-[50%]">
+        <div className="flex flex-col mx-auto gap-[0.5rem] w-full md:w-[50%]">
             <div className="right flex flex-col gap-[0.5rem] items-center space-y-2 ">
                 <p className='text-2xl text-center font-bold text-orange-400'>Our Value</p>
                 <h1 className='text-4xl font-bold text-[#1f3e72]'>Value We Give to You</h1>
